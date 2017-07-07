@@ -26,9 +26,12 @@
 * This comparison statement with JS and CS
 
 - - - -
-xPos = 300
-print xPos <100 and xPos< 500 #js
-print 100 < xPos < 500 #cs
+```xPos = 300
+In JS
+print xPos <100 and xPos< 500 
+In CS
+print 100 < xPos < 500 
+```
 - - - -
 
 * print myVar ? “Hello”.  If myVar is true, it will print myVar, if not it will print Hello
@@ -36,20 +39,20 @@ print 100 < xPos < 500 #cs
 * Conditionals, if there is no indentation in block code, code won’t be compiled
 
 - - - -
-If condition
+```If condition
 	block code
 else if condition (no need to use else, we can use just if)
 	block code
 else 
 	block code
-
+```
 - - - -
 
-* In CS,  `print something if condition` is the same as: ```if condition`
-	`print something
+* In CS,  `print something if condition` is the same as: ```if condition
+	print something
 ```
 
-* `unless conduction`
+*  `unless conduction`
 	`print something`
 
 * Arrays. We can do it vanilla js style or having elements of array in lines and indented
@@ -73,6 +76,7 @@ Elem2
 - - - -
 JS
 `var mammals = { type: “cow”, legs: 4, color: “gray” };`
+
 CS
 ```mammals =
 	type: “cow”
@@ -125,7 +129,8 @@ for key, value of person
 
 * ### for multiple line comments
 - - - -
-```### 
+```
+### 
 This is a comment
 Another comment
 ###
