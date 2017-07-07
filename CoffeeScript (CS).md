@@ -34,7 +34,7 @@ print 100 < xPos < 500
 ```
 - - - -
 
-* print myVar ? “Hello”.  If myVar is true, it will print myVar, if not it will print Hello
+* `print myVar ? “Hello”`.  If myVar is true, it will print myVar, if not it will print Hello
 
 * Conditionals, if there is no indentation in block code, code won’t be compiled
 
@@ -48,15 +48,20 @@ else
 ```
 - - - -
 
-* In CS,  `print something if condition` is the same as: ```if condition
+* In CS,  `print something if condition` is the same as:
+
+```
+if condition
 	print something
 ```
 
-*  `unless conduction`
-	`print something`
+*  ```unless conduction
+	`print something
+   ```
 
 * Arrays. We can do it vanilla js style or having elements of array in lines and indented
-- - - - ``` myArray = [
+- - - -
+``` myArray = [
 	elem1 (comma is not necessary, if you want to use it, go ahead)
 	elem2
 	elemN
@@ -95,7 +100,8 @@ CS
 		color: “pink”
 ```
 
-* delete mammals.cow.color  OR delete mammals[“cow”].legs
+* delete mammals.cow.color  OR
+delete mammals[“cow”].legs
 
 * for loop
 - - - -
