@@ -139,9 +139,9 @@ for key, value of person
 ```
 - - - -
 
-*  Ssingle line comments
+*  Single line comments
 `
-&#35; This is a comment
+\# This is a single comment
 `
 
 * Multiple line comments
