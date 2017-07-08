@@ -62,7 +62,8 @@ if condition
 
 * Arrays. We can do it vanilla js style or having elements of array in lines and indented
 - - - -
-``` myArray = [
+``` 
+myArray = [
 	elem1 (comma is not necessary, if you want to use it, go ahead)
 	elem2
 	elemN
@@ -84,12 +85,13 @@ JS
 `var mammals = { type: “cow”, legs: 4, color: “gray” };`
 
 CS
-```mammals =
+```
+mammals =
 	type: “cow”
 	legs: 4
 	color: “gray”
-```
-```mammals = 
+	
+mammals = 
 	cow:
 		legs: 4
 		color: “gay”
@@ -106,12 +108,14 @@ delete mammals[“cow”].legs
 
 * for loop
 - - - -
-```for num in [1..10]
+```
+for num in [1..10]
 	print num
 ```
 - - - -
 loop in array
-```car = [
+```
+car = [
 	“wheels”
 	“seats”
 	“music”
@@ -122,7 +126,8 @@ for elem in car
 ```
 - - - -
 loop in object
-```person = 
+```
+person = 
 	name: “manolo”
 	age: 24 (# I wish)
 	country: “the world”
@@ -144,7 +149,8 @@ Another comment
 ```
 * Functions 
 
-```sayHola = ->
+```
+sayHola = ->
 	print “hola”
 
 printName = (name) ->
