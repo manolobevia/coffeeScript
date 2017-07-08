@@ -8,10 +8,12 @@
 * Use string interpolation with double quotes. 
 - - - -
 **js**
-	`var farm = “potatoes” + ” /“ + ”garlic” + ” /“  + “eggs”`
+
+`var farm = “potatoes” + ” /“ + ”garlic” + ” /“  + “eggs”`
 
 **coffeeScript**
-	`farm = “#{potatoes} / #{gralic} / #{eggs}”`
+
+`farm = “#{potatoes} / #{gralic} / #{eggs}”`
 
 - - - -
 
@@ -137,9 +139,12 @@ for key, value of person
 ```
 - - - -
 
-* # for single line comments
+*  Ssingle line comments
+`
+# This is a comment
+`
 
-* ### for multiple line comments
+* Multiple line comments
 - - - -
 ```
 ### 
