@@ -23,7 +23,7 @@
 
 * In CS  `not isTrue` is the same like `!isTrue` in JS
 
-* This comparison statement with JS and CS
+* Comparison statement with JS and CS
 
 - - - -
 ```xPos = 300
@@ -39,7 +39,8 @@ print 100 < xPos < 500
 * Conditionals, if there is no indentation in block code, code won’t be compiled
 
 - - - -
-```If condition
+```
+If condition
 	block code
 else if condition (no need to use else, we can use just if)
 	block code
@@ -56,7 +57,7 @@ if condition
 ```
 
 *  ```unless conduction
-	`print something
+	print something
    ```
 
 * Arrays. We can do it vanilla js style or having elements of array in lines and indented
